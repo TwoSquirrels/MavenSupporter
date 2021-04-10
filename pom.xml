@@ -27,13 +27,12 @@
 
   <dependencies>
 
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <type>jar</type>
+      <version>4.13.2</version>
       <scope>test</scope>
-      <optional>true</optional>
     </dependency>
 
   </dependencies>
@@ -60,6 +59,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+
+    <githubUrl>https://github.com/TwoSquirrels/MavenSupporter</githubUrl>
+    <gitUrl>${githubUrl}.git</gitUrl>
 
   </properties>
 
@@ -147,7 +149,7 @@
 
   <name>MavenSupporter</name>
   <description></description>
-  <url>https://github.com/TwoSquirrels/MavenSupporter</url>
+  <url>${githubUrl</url>
 
   <inceptionYear>2021</inceptionYear>
   <licenses>
@@ -198,7 +200,7 @@
 
   <issueManagement>
     <system>Github</system>
-    <url>https://github.com/TwoSquirrels/MavenSupporter/issues</url>
+    <url>${githubUrl}/issues</url>
   </issueManagement>
 
   <!--ciManagement>
@@ -230,10 +232,10 @@
   </mailingLists-->
 
   <scm>
-    <connection>scm:git:https://github.com/TwoSquirrels/MavenSupporter.git</connection>
-    <developerConnection>scm:git:https://github.com/TwoSquirrels/MavenSupporter.git</developerConnection>
+    <connection>scm:git:${gitUrl}</connection>
+    <developerConnection>scm:git:${gitUrl}</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/TwoSquirrels/MavenSupporter</url>
+    <url>${githubUrl}</url>
   </scm>
 
   <prerequisites>
