@@ -5,7 +5,7 @@
  * Author        : りすりす/TwoSquirrels                                     *
  * Creation Date : April 7, 2021                                             *
  * Copyright     : (C) 2021 TwoSquirrels                                     *
- * License       : Apache-2.0                                                *
+ * License       : Apache License, Version 2 0                               *
  *                 https://www.apache.org/licenses/LICENSE-2.0               *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
